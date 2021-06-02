@@ -1,0 +1,96 @@
+
+C:\xampp\htdocs\javascript\js_learning\git\cmder
+λ ls
+ bin/   Cmder.exe*   config/   icons/   LICENSE   opt/   vendor/  'Version 1.3.18.1106'
+
+C:\xampp\htdocs\javascript\js_learning\git\cmder
+λ cd ..
+
+C:\xampp\htdocs\javascript\js_learning\git
+λ ls
+cmder/  git-one/  git-two/
+
+C:\xampp\htdocs\javascript\js_learning\git
+λ cd git-one
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ ls
+index.html
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git rm --cahced
+error: unknown option `cahced'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git rm --cached index.html
+rm 'index.html'
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git commit -m "Created just HTML tags"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git add index.html
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git commit -m "Just created HTML tags"
+[master (root-commit) 904cbf1] Just created HTML tags
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ
