@@ -93,4 +93,26 @@ C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
  create mode 100644 index.html
 
 C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
-λ
+λ git add note
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git commit -m "git commands"
+[master bdb055a] git commands
+ 1 file changed, 96 insertions(+)
+ create mode 100644 note
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git log
+commit bdb055ac814621036cafa9b134cec45300c16c37 (HEAD -> master)
+Author: iamgokkul <gokkulkumaradobe@gmail.com>
+Date:   Wed Jun 2 11:44:34 2021 +0530
+
+
+
+C:\xampp\htdocs\javascript\js_learning\git\git-one (master)
+λ git log --oneline
+bdb055a (HEAD -> master) git commands
+904cbf1 Just created HTML tags
+
+
+
